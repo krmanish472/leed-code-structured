@@ -1,4 +1,4 @@
-package ArrayAndTwoPointer;
+package ArrayAndTwoPointer.Intervals;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,7 +14,7 @@ public class MergeIntervals {
         }
     }
 
-    private static int[][] merge(int[][] intervals) {
+    public static int[][] merge(int[][] intervals) {
         // sort intervals in asc order
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
 

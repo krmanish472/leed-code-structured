@@ -30,6 +30,7 @@ public class ValidParenthesis {
                 }
             }
         }
+        // at end the stack should be empty if all valid
         return stack.isEmpty();
     }
 }
